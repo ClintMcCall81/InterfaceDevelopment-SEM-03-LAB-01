@@ -1,7 +1,10 @@
 html {
-backgorund-image: url(../images/depositphotos_22417105-stock-photo-rustic-barn-wood-background.jpg);
+  background: linear-gradient(
+                     rgba(255, 255, 255, 0.5), 
+                     rgba(255,255,255, .5)),
+                     url(../images/depositphotos_22417105-stock-photo-rustic-barn-wood-background.jpg);
+   background-position: center;
 }
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
