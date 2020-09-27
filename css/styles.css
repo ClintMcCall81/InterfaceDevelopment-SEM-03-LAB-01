@@ -407,3 +407,97 @@ html {
   margin-top: 20px;
   color: white;
 }
+
+@media (min-width: 360px) {
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  .info-04 {
+    height: fit-content;
+  }
+  .nutritional-info {
+    height: fit-content;
+  }
+  .step-01 p {
+    height: 550px;
+    font-size: 14px;
+  }
+  
+  .step-02 p {
+    height: 550px;
+    font-size: 14px;
+  }
+  
+  .step-03 p {
+    height: 550px;
+    font-size: 14px;
+  }
+  
+  .step-04 p {
+    height: 550px;
+    font-size: 14px;
+  } 
+  
+  .step-05 p  {
+    height: 550px;
+    font-size: 14px;
+  }
+  
+  .step-06 p {
+    height: 550px;
+    font-size: 14px;
+  }
+
+  .info-01 p {
+    font-size: 32px ;
+  }
+  .info-02 p {
+    font-size: 32px;
+  }
+  .info-03 p {
+    font-size: 32px;
+  }
+
+}
+@media (min-width: 763px) {
+  .step-01 p {
+    height: 500px;
+    font-size: 18px;
+  }
+  
+  .step-02 p {
+    height: 500px;
+    font-size: 18px;
+  }
+  
+  .step-03 p {
+    height: 500px;
+    font-size: 18px;
+  }
+  
+  .step-04 p {
+    height: 500px;
+    font-size: 18px;
+  } 
+  
+  .step-05 p  {
+    height: 500px;
+    font-size: 18px;
+  }
+  
+  .step-06 p {
+    height: 500px;
+    font-size: 18px;
+  }
+
+  .info-01 p {
+    font-size: 40px ;
+  }
+  .info-02 p {
+    font-size: 40px;
+  }
+  .info-03 p {
+    font-size: 40px;
+  }
+}
