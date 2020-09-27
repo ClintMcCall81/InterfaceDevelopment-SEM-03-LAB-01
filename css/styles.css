@@ -1,5 +1,8 @@
 html {
-  background-image: url(../images/depositphotos_22417105-stock-photo-rustic-barn-wood-background.jpg);
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url(../images/depositphotos_22417105-stock-photo-rustic-barn-wood-background.jpg);
 }
 
 .grid-container {
