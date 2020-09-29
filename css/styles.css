@@ -4,9 +4,9 @@ html {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
-    gap: 15px 5px;
+    gap: 15px 10px;
     grid-template-areas:
       '. hero-image hero-image hero-image .'
       '. info-01 info-02 info-03 .'
@@ -20,7 +20,6 @@ html {
   .grid-container-middle {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0px 0px;
     grid-template-areas:  
     'i-list-01 i-list-02 i-list-03';
     justify-content: center;
@@ -29,7 +28,6 @@ html {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    gap: 0px 0px;
     grid-template-areas:
     'n-s-01 n-s-02 n-s-03';
   }
@@ -54,7 +52,7 @@ html {
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-      border-radius: 20px 20px 0px 0px;
+      border-radius: 20px 20px 20px 20px;
       
   }
   .hero-image h1 {
@@ -94,6 +92,7 @@ html {
       background-size: cover;
       background-repeat: no-repeat;
       box-shadow: 10px 10px 14px -6px rgba(0,0,0,0.32);
+      border-radius: 500px 500px 500px 500px;
   }
   .info-01 p {
       font-size: 40px;
@@ -116,6 +115,7 @@ html {
       background-size: cover;
       background-repeat: no-repeat;
       box-shadow: 10px 10px 14px -6px rgba(0,0,0,0.32);
+      border-radius: 500px 500px 500px 500px;
   }
   .info-02 p {
     font-size: 40px;
@@ -138,6 +138,7 @@ html {
       background-size: cover;
       background-repeat: no-repeat;
       box-shadow: 10px 10px 14px -6px rgba(0,0,0,0.32);
+      border-radius: 500px 500px 500px 500px;
   }
   .info-03 p {
     font-size: 40px;
@@ -275,6 +276,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 14px -6px rgba(0,0,0,0.32);
+    border-radius: 0px 0px 0px 20px;
   }
   .step-04 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -323,6 +325,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 14px -6px rgba(0,0,0,0.32);
+    border-radius: 0px 0px 20px 0px;
   }
   .step-06 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -349,7 +352,7 @@ html {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      border-radius: 0px 0px 20px 20px;
+      border-radius: 20px 20px 20px 20px;
   }
   .step-end h2 {
       font-family: 'Lobster', cursive;
@@ -408,3 +411,98 @@ html {
   margin-top: 20px;
   color: white;
 }
+
+/* @media (min-width: 360px) {
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  .info-04 {
+    height: fit-content;
+  }
+  .nutritional-info {
+    height: fit-content;
+  }
+  .step-01 p {
+    height: 550px;
+    font-size: 14px;
+  }
+  
+  .step-02 p {
+    height: 550px;
+    font-size: 14px;
+  }
+  
+  .step-03 p {
+    height: 550px;
+    font-size: 14px;
+  }
+  
+  .step-04 p {
+    height: 550px;
+    font-size: 14px;
+  } 
+  
+  .step-05 p  {
+    height: 550px;
+    font-size: 14px;
+  }
+  
+  .step-06 p {
+    height: 550px;
+    font-size: 14px;
+  }
+
+  .info-01 p {
+    font-size: 32px ;
+  }
+  .info-02 p {
+    font-size: 32px;
+  }
+  .info-03 p {
+    font-size: 32px;
+  }
+
+}
+@media (min-width: 763px) {
+  .step-01 p {
+    height: 500px;
+    font-size: 18px;
+  }
+  
+  .step-02 p {
+    height: 500px;
+    font-size: 18px;
+  }
+  
+  .step-03 p {
+    height: 500px;
+    font-size: 18px;
+  }
+  
+  .step-04 p {
+    height: 500px;
+    font-size: 18px;
+  } 
+  
+  .step-05 p  {
+    height: 500px;
+    font-size: 18px;
+  }
+  
+  .step-06 p {
+    height: 500px;
+    font-size: 18px;
+  }
+
+  .info-01 p {
+    font-size: 40px ;
+  }
+  .info-02 p {
+    font-size: 40px;
+  }
+  .info-03 p {
+    font-size: 40px;
+  }
+
+} */
