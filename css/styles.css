@@ -1,6 +1,5 @@
 html {
   background-image: url(../images/depositphotos_22417105-stock-photo-rustic-barn-wood-background.jpg);
-  background-position: center;
 }
 .grid-container {
     display: grid;
@@ -504,5 +503,9 @@ html {
   .info-03 p {
     font-size: 40px;
   }
+<<<<<<< HEAD
 
 } */
+=======
+}
+>>>>>>> 37cd3e2b4d74b8c921f96b7c3e0215c1f51f976c
